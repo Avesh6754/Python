@@ -7,7 +7,7 @@ for i in range (x):
 
 print(data)
 newdata=[]
-for i in range (len(data)):
+for i in data:
     if i not in newdata:
         newdata.append(i)
 
