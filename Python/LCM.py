@@ -14,7 +14,6 @@ while(num1!=num2):
     else:
         num2=num2-num1
     gcd=num1
-print(gcd)
 fun(gcd,a,b)
 
 
