@@ -1,6 +1,6 @@
-a=input("Enter the value of a : ")
-b=input("Enter the value of b : ")
-c=input("Enter the value of c : ")
+a=int(input("Enter the value of a : "))
+b=int(input("Enter the value of b : "))
+c=int(input("Enter the value of c : "))
 
 if (a>b) and (a>c):
     print('A is max ')
