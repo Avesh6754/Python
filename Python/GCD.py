@@ -1,15 +1,11 @@
 
-GCD=0
 a=int(input("Enter the value of a : "))
 b=int(input("Enter the value of b : "))
-smaller=0
-
-if a>b:
-    smaller=b
-else:
-    smaller=a
-
-for i in range(1,smaller+1):
-    if a%i==0 and b%i==0:
-            GCD=i
-print(GCD)
+num1=a
+num2=b
+while(num1!=num2):
+    if num1>num2:
+        num1=num1-num2
+    else:
+        num2=num2-num1
+print(num1)
