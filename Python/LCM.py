@@ -1,7 +1,9 @@
+import math
+
 
 def fun(gcd,a,b):
-    LCM=(a*b)//gcd
-    print(LCM)    
+    LCM=(a*b)/gcd
+    print(int(LCM))    
 a=int(input("Enter the value of a : "))
 b=int(input("Enter the value of b : "))
 num1=a
@@ -14,4 +16,6 @@ while(num1!=num2):
     gcd=num1
 print(gcd)
 fun(gcd,a,b)
+
+
 
