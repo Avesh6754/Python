@@ -3,7 +3,7 @@ import math
 
 def fun(gcd,a,b):
     LCM=(a*b)/gcd
-    print(int(LCM))    
+    print("LCM : ",int(LCM))    
 a=int(input("Enter the value of a : "))
 b=int(input("Enter the value of b : "))
 num1=a
