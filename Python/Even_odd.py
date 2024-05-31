@@ -1,6 +1,6 @@
-a =input("Enter the value of a : ")
+a =int(input("Enter the value of a : "))
 
-if (int(a)%2 == 0):
+if ( a % 2 == 0):
     print("Even Number ")
 else:
     print("Odd Number ")
