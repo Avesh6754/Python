@@ -1,7 +1,7 @@
 file_name=input("Enter the data : ")
 
 try:
-    file= open(file_name,"w")
+    file= open(file_name,"r")
     file.read()
     print(file_name)
     file.close()
