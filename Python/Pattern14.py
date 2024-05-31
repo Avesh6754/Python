@@ -7,5 +7,5 @@ for i in range(1,5+1):
     n=1
     for j in range(1,i+1):
         print(n,sep=" ",end=" ")
-        n=n*(i-j)//j
+        n=n*(i-j)/j
     print()
